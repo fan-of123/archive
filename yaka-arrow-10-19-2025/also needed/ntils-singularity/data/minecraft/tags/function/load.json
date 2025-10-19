@@ -1,0 +1,8 @@
+{
+  "values": [
+    "ntils:z/singularity/main",
+    "#ntils:z/singularity/load",
+    "#ntils:singularity/load"
+  ],
+  "replace":false
+}

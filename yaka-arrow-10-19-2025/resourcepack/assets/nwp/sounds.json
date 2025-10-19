@@ -1,0 +1,26 @@
+{
+	"yaka.target" : {
+		"sounds":[
+			{"name":"nwp:yaka/target","pitch":1},
+			{"name":"nwp:yaka/target","pitch":0.9},
+			{"name":"nwp:yaka/target","pitch":0.8},
+			{"name":"nwp:yaka/target","pitch":0.7}
+		]
+	},
+	"yaka.hit" : {
+		"sounds":[
+			{"name":"nwp:yaka/hit","pitch":1.3},
+			{"name":"nwp:yaka/hit","pitch":1.2},
+			{"name":"nwp:yaka/hit","pitch":1.1},
+			{"name":"nwp:yaka/hit","pitch":1},
+			{"name":"nwp:yaka/hit","pitch":0.9},
+			{"name":"nwp:yaka/hit","pitch":0.8},
+			{"name":"nwp:yaka/hit","pitch":0.7}
+		]
+	},
+	"yaka.recall" : {
+		"sounds":[
+			"nwp:yaka/recall"
+		]
+	}
+}

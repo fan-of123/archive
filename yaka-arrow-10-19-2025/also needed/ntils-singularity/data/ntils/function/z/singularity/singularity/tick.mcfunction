@@ -1,0 +1,2 @@
+execute if score $ntils:singularity.ENABLED ntils.API.flag matches -2147483648..2147483647 run function #ntils:z/singularity/tick
+execute if score $ntils:singularity.ENABLED ntils.API.flag matches -2147483648..2147483647 run function #ntils:singularity/tick

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "custom_data": {"nwp":{"id":"yaka_arrow"}},
+                "item_model": "nwp:yaka",
+                "custom_model_data": {"strings": ["item"]},
+                "item_name": "Yaka Arrow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

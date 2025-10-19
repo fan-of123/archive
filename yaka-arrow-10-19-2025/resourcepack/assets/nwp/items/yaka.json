@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "proj",
+        "model": {
+          "type": "minecraft:model",
+          "model": "nwp:yaka/proj"
+        }
+      },
+      {
+        "when": "item",
+        "model": {
+          "type": "minecraft:model",
+          "model": "nwp:yaka/item"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

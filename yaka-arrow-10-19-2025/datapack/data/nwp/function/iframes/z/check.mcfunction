@@ -1,0 +1,1 @@
+$return run execute if entity @s[tag=nwp.iframes.$(id)]
