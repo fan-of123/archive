@@ -43,7 +43,7 @@ scoreboard players operation #i.x nip.temp /= #1000 nip.temp
 scoreboard players operation #j.x nip.temp /= #1000 nip.temp
 scoreboard players operation #k.x nip.temp /= #1000 nip.temp
 
-execute unless items entity @s saddle saddle run function nip:z/s
+execute unless items entity @s saddle *[enchantments~[{enchantments:"nip:z",levels:{min:1}}]] run function nip:z/s
 
 execute store result score #x nip.temp run scoreboard players operation @s nip.z.x += #i.x nip.temp
 execute store result score #y nip.temp run scoreboard players operation @s nip.z.y += #j.x nip.temp

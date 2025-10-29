@@ -1,6 +1,6 @@
 scoreboard objectives add nip.temp dummy
 scoreboard objectives add nip.in dummy
-scoreboard players set #100 nip.temp 100
+scoreboard players set #1000 nip.temp 1000
 
 scoreboard objectives add nip.z.x dummy
 scoreboard objectives add nip.z.y dummy
@@ -106,4 +106,3 @@ scoreboard objectives add nip.z.z.28 dummy
 scoreboard objectives add nip.z.z.29 dummy
 scoreboard objectives add nip.z.z.30 dummy
 scoreboard objectives add nip.z.z.31 dummy
-

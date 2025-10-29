@@ -152,11 +152,9 @@
       {
         "requirements": { "condition": "minecraft:entity_scores", "entity": "this", "scores": { "nip.z.x.0": 1 } },
         "effect": { "type": "minecraft:apply_impulse", "direction": [1,0,0], "coordinate_scale": [1,1,1], "magnitude": 0.001 }
-      }
+      },
 
-
-
-      ,
+      
       {
         "requirements": { "condition": "minecraft:entity_scores", "entity": "this", "scores": { "nip.z.y.31": 1 } },
         "effect": { "type": "minecraft:apply_impulse", "direction": [0,1,0], "coordinate_scale": [1,1,1], "magnitude": -2147483.648 }
@@ -284,11 +282,9 @@
       {
         "requirements": { "condition": "minecraft:entity_scores", "entity": "this", "scores": { "nip.z.y.0": 1 } },
         "effect": { "type": "minecraft:apply_impulse", "direction": [0,1,0], "coordinate_scale": [1,1,1], "magnitude": 0.001 }
-      }
+      },
 
 
-
-      ,
       {
         "requirements": { "condition": "minecraft:entity_scores", "entity": "this", "scores": { "nip.z.z.31": 1 } },
         "effect": { "type": "minecraft:apply_impulse", "direction": [0,0,1], "coordinate_scale": [1,1,1], "magnitude": -2147483.648 }
