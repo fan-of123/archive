@@ -18,11 +18,11 @@
     "saddle"
   ],
   "effects": {
-    "minecraft:location_changed": [
+    "minecraft:tick": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "nip:z/reset"
+          "function": "nip:z/f"
         }
       },
       {
